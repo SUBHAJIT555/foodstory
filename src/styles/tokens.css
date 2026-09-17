@@ -1,0 +1,100 @@
+:root {
+  /* Measured from live foodstories.shop. Unverified roles are omitted, not guessed. */
+
+  --font-body: var(--font-gilroy-sub), Arial, sans-serif;
+  --font-display: var(--font-russolo-sub), Georgia, serif;
+
+  --color-page: #fbf3f2;
+  --color-surface: #ffffff;
+  --color-text: rgb(56, 56, 58);
+  --color-text-muted: #7e7e7e;
+  --color-border: #f0f0f0;
+  --color-border-strong: #a5a4a7;
+  --color-accent: rgb(160, 56, 63);
+  --color-accent-contrast: #ffffff;
+  --color-footer: rgb(56, 56, 58);
+  --color-error: #c23a3a;
+  --color-disabled: #cccccd;
+  --color-disabled-text: #979699;
+  --color-search: rgb(56 56 58 / 0.4);
+  --color-announce: #ffefef;
+  --color-dew: #edeae9;
+  --color-cookie: #640c10;
+
+  --type-navigation: 14px;
+  --type-navigation-weight: 500;
+  --type-navigation-lh: 20px;
+  --type-body: 16px;
+  --type-body-weight: 400;
+  --type-body-lh: 24px;
+  --type-body-sm: 14px;
+  --type-heading-sm: 18px;
+  --type-heading-sm-weight: 600;
+  --type-heading-sm-lh: 28px;
+  --type-heading-md: 28px;
+  --type-heading-md-weight: 700;
+  --type-heading-lg: 35px;
+  --type-heading-lg-weight: 700;
+  --type-heading-lg-lh: 52.5px;
+  --type-display: 36px;
+  --type-display-weight: 600;
+  --type-rail: 30px;
+  --type-rail-lh: 36px;
+  --type-subscribe: 64px;
+  --color-product-well: #fef9f8;
+  --type-button: 14px;
+  --type-button-weight: 700;
+  --type-button-lh: 20px;
+  --type-cookie: 10px;
+
+  --space-2: 8px;
+  --space-2_5: 10px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-14: 56px;
+  --space-16: 64px;
+
+  --header-sticky-desktop: 110px;
+  --header-sticky-mobile: 99px;
+  --header-sticky-desktop-current: 110px;
+  --header-sticky-mobile-current: 99px;
+  --header-announce: 30px;
+  --header-inset-1440: 81px;
+  --logo-width: 176px;
+  --logo-height: 48px;
+  --logo-width-mobile: 128px;
+  --logo-height-mobile: 35px;
+  --search-width-desktop: 32.25rem;
+  --search-height: 48px;
+  --icon-size: 20px;
+  --fab-size: 50px;
+
+  --container-content: 80rem;
+  --page-gutter-mobile: 12px;
+  --page-gutter-tablet: 12px;
+  --page-gutter-desktop: 8px;
+
+  --radius-none: 0;
+  --radius-search: 60px;
+  --radius-cta: 28.8px;
+  --radius-pickup: 12px;
+  --radius-tab: 40px;
+
+  --shadow-none: none;
+
+  --cta-min-height: 48px;
+
+  --z-content: 1;
+  --z-sticky-header: 20;
+  --z-fab: 20;
+  --z-dropdown: 25;
+  --z-backdrop: 28;
+  --z-drawer: 30;
+
+  --ease-ui: ease;
+  --duration-ui: 300ms;
+}
