@@ -10,6 +10,7 @@
  *
  * Throttled. Does not crawl the full catalog.
  */
+/// <reference types="node" />
 import { mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
